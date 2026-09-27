@@ -60,20 +60,11 @@
 
 /* MAIN CONTENT */
 
-/* Do's */
 
-.main-content-dos {
+.main-content-dos,.main-content-Donts {
     background-color: antiquewhite;
     margin: 0 5%;
 }
-
-/* Don'ts */
-
-.main-content-Donts {
-    background-color: antiquewhite;
-    margin: 0 5%;
-}
-
 
 /* Shared h2 */
 
@@ -120,15 +111,17 @@ h2 {
 #Dos-Header-Side {
     padding-left: 1%;
 }
-
-.Dos-Subheading {
-    font-size: x-large;
-    font-family: Impact, Haettenschweiler,
-                 'Arial Narrow Bold', sans-serif;
+.Donts-Subheading,.Donts-Paragraph{
+    text-align: right;
 }
 
-.Dos-Paragraph {
-    font-size: larger;
+.Dos-Subheading,.Donts-Subheading {
+    font-size: 242%;
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+}
+
+.Dos-Paragraph,.Donts-Paragraph {
+    font-size: 180%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
