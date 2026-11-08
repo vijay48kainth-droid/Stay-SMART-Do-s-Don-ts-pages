@@ -4,7 +4,7 @@
 
 .dos-header-image,
 .donts-header-image {
- 
+
     max-width: 100%;
     height: auto;
 }
@@ -23,8 +23,8 @@
 
 /* Shared header-side properties */
 
-.Donts-header-side,
-#Dos-Header-Side {
+.donts-header-side,
+#dos-header-side {
     display: flex;
     width: 50%;
     flex-wrap: wrap;
@@ -61,7 +61,7 @@
 /* MAIN CONTENT */
 
 
-.main-content-dos,.main-content-Donts {
+.main-content-dos,.main-content-donts {
     background-color: antiquewhite;
     margin: 0 5%;
 }
@@ -76,11 +76,11 @@ h2 {
 
 /* DO'S INTRO */
 
-#Dos-intro {
+#dos-intro {
     display: flex;
 }
 
-.Dos-Title {
+.dos-title {
     border-radius: 12px;
     background-color: black;
     text-align: center;
@@ -91,17 +91,17 @@ h2 {
     font-size: xx-large;
 }
 
-.Dos-Title h1 {
+.dos-title h1 {
     padding: 0;
     margin: 0;
 }
 
-#Do-side-header {
+#do-side-header {
     width: 40%;
     text-align: center;
 }
 
-.DoPhone {
+.do-phone {
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -109,19 +109,19 @@ h2 {
     float: left;
 }
 
-#Dos-Header-Side {
+#dos-header-side {
     padding-left: 1%;
 }
-.Donts-Subheading,.Donts-Paragraph{
+.donts-subheading,.donts-paragraph{
     text-align: right;
 }
 
-.Dos-Subheading,.Donts-Subheading {
+.dos-subheading,.donts-subheading {
     font-size: 242%;
     font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
 }
 
-.Dos-Paragraph,.Donts-Paragraph {
+.dos-paragraph,.donts-paragraph {
     font-size: 180%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
@@ -132,12 +132,12 @@ h2 {
 
 /* DON'TS INTRO */
 
-#Donts-intro {
+#donts-intro {
     display: flex;
     flex-direction: row-reverse;
 }
 
-#Donts-side-header {
+#donts-side-header {
     width: 40%;
     display: flex;
     background-color: red;
@@ -145,25 +145,25 @@ h2 {
     flex-direction: column;
 }
 
-#Donts-side-header h1 {
+#donts-side-header h1 {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: red;
     font-size: xx-large;
 }
 
-.Dont-image {
+.dont-image {
     width: 70%;
     max-width: 100%;
     height: auto;
     alignment-baseline: center;
 }
 
-.Donts-header-side {
+.donts-header-side {
     padding-right: 1%;
 }
 
-.DontsTitle {
+.donts-title {
     border-radius: 12px;
     width: 100%;
     text-align: center;
@@ -173,7 +173,7 @@ h2 {
     font-size: xx-large;
 }
 
-.DontsTitle h1 {
+.donts-title h1 {
     padding: 0;
     margin: 0;
 }
@@ -181,7 +181,7 @@ h2 {
 
 /* THREAT IMAGE */
 
-#Threat-image {
+#threat-image {
     max-width:120px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -191,7 +191,7 @@ h2 {
     margin:0;
 }
 
-#Threat-image-wide {
+#threat-image-wide {
     max-width:137px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -208,7 +208,7 @@ h2 {
     padding-bottom: 20px;
     align-self: center;
     width: 90%;
-    
+
     /* Tweaked to match the exact desaturated slate-blue colors from the phones image */
     background: linear-gradient(
       to right,
@@ -219,7 +219,7 @@ h2 {
 }
 
 /* Keeps your image centered with a clean layout */
-#space .DontSpaceImage {
+#space .dont-space-image {
     display: block;
     margin: 0 auto; 
     max-width: 100%;
@@ -228,17 +228,17 @@ h2 {
 
 
 
-.DontSpaceImage{
+.dont-space-image{
     width:65%;
     border-bottom-left-radius: 8.1%;
 
 }
 
-.DoSpaceImage{
+.do-space-image{
     width:90%;
 }
 
-.DoSpaceImage,.DontSpaceImage{
+.do-space-image,.dont-space-image{
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -269,8 +269,8 @@ h2 {
     }
 }
 
-.Do-font,
-.Dont-font{
+.do-font,
+.dont-font{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     font-size:30px;
@@ -299,7 +299,7 @@ h2 {
     width: 500px;
     max-width: 100%;
     padding-left: 4px;
-    
+
 }
 
 
@@ -336,7 +336,7 @@ h2 {
 
 /* R.A.T */
 
-.threat-RAT {
+.threat-rat {
     padding: 5px;
     width: 320px;
     max-width: 100%;
@@ -348,20 +348,20 @@ h2 {
     margin: 5px;
 }
 
-.threat-RAT h1 {
+.threat-rat h1 {
     margin-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.threat-RAT h4 {
+.threat-rat h4 {
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 109%;
 }
 
-.Threat-rat-img {
+.threat-rat-img {
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     width: 120px;
@@ -376,8 +376,8 @@ h2 {
 
 /* Same width on both pages */
 
-.Do-shield-image,
-.Dont-shield-image {
+.do-shield-image,
+.dont-shield-image {
     width: 50%;
     max-width: 100%;
     height: auto;
@@ -388,13 +388,13 @@ h2 {
 
 /* Do's */
 
-.Do-list,.Dont-list{
+.do-list,.dont-list{
     width: 300px;
     max-width: 100%;
     margin: 5px;
     font-size: 20px;
 }
-.Do-list {
+.do-list {
     border-radius: 12px;
     background-color: green;
     color: black;
@@ -403,12 +403,12 @@ h2 {
 
 /* Don'ts */
 
-.Dont-list {
+.dont-list {
     border-radius: 12px;
     background-color: red;
     color: black;
     font-family:'Times New Roman', Times, serif; 
-    
+
 }
 
 section{
@@ -429,31 +429,31 @@ section{
         width: 30%;
     }
 
-    #Dos-intro, #Donts-intro {
+    #dos-intro, #donts-intro {
         flex-direction: column;
     }
 
-    #Do-side-header, #Donts-side-header, #Dos-Header-Side, .Donts-header-side {
+    #do-side-header, #donts-side-header, #dos-header-side, .donts-header-side {
         width: 100%;
     }
 
-    #Dos-Header-Side, .Donts-header-side {
+    #dos-header-side, .donts-header-side {
         padding: 0 1%;
     }
 
-    .DoPhone, .Dont-image {
+    .do-phone, .dont-image {
         width: 60%;
         max-width: 100%;
         margin: auto;
         float: none;
     }
 
-    .threat-shape, .wide-description, .header, .threat-RAT, .Do-list, .Dont-list {
+    .threat-shape, .wide-description, .header, .threat-rat, .do-list, .dont-list {
         width: 45%;
         max-width: 100%;
     }
 
-    
+
 }
 
 /* RESPONSIVE DESIGN - SMART PHONES (600px) */
@@ -467,7 +467,7 @@ section{
     }
 
     /* Force sections to take full edge-to-edge width */
-    .main-content-dos, .main-content-Donts, #space, section {
+    .main-content-dos, .main-content-donts, #space, section {
         width: 100% !important;
         margin: 0 !important;
         border-radius: 0 !important;
@@ -479,17 +479,17 @@ section{
         align-items: center;
     }
 
-    #logo-headtag, .email-container form, .email-container input, #Search-box {
+    #logo-headtag, .email-container form, .email-container input, #search-box {
         width: 100%;
         max-width: 100%;
         text-align: center;
     }
 
-    #logo-headtag h1, .Dos-Title, .DontsTitle, .threat-shape h1 { font-size: x-large; }
-    #logo-headtag h2, .main-content-dos h2, .main-content-Donts h2, .Dos-Subheading, .Donts-Subheading { font-size: large; }
-    .header p, .wide-description p, .Dos-Paragraph,.Donts-Paragraph { font-size: medium; }
+    #logo-headtag h1, .dos-title, .donts-title, .threat-shape h1 { font-size: x-large; }
+    #logo-headtag h2, .main-content-dos h2, .main-content-donts h2, .dos-subheading, .donts-subheading { font-size: large; }
+    .header p, .wide-description p, .dos-paragraph,.donts-paragraph { font-size: medium; }
 
-    .dos-header-image, .donts-header-image, .DoPhone, .Dont-image {
+    .dos-header-image, .donts-header-image, .do-phone, .dont-image {
         width: 70%;
         max-width: 300px;
         margin: auto;
@@ -512,11 +512,11 @@ section{
     }
 
     .report-email-image { width: 20%; }
-    .Do-shield-image, .Dont-shield-image { width: 30%; max-width: 100%; }
-    .Threat-rat-img { width: 60%; height: 60%; }
-    #Threat-image, #Threat-image-wide { width: 40%; height: 80px; }
+    .do-shield-image, .dont-shield-image { width: 30%; max-width: 100%; }
+    .threat-rat-img { width: 60%; height: 60%; }
+    #threat-image, #threat-image-wide { width: 40%; height: 80px; }
 
-    .threat-shape, .wide-description, .header, .threat-RAT, .Do-list, .Dont-list {
+    .threat-shape, .wide-description, .header, .threat-rat, .do-list, .dont-list {
         width: 95%;
         max-width: 95%;
         margin: 5px auto;
